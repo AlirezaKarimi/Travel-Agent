@@ -1,0 +1,280 @@
+body {
+	/*background-image : url('image/bg.png');*/
+	background-repeat: no-repeat;
+}
+
+div.container {
+	width : 100%;
+	height: 100%;
+	position: relative;
+}
+
+div.img {
+	/*border: 2px solid blue;*/
+	width : 100%;
+	height: 100%;
+}
+
+div.img > div {
+	position: absolute;
+	top : 0;
+	left: 0;
+	background-size :cover;
+	background-repeat: no-repeat;
+	width : 100%;
+	height: 100%;
+	/*border: 2px solid green;*/
+}
+
+div.innercontainer	{
+	position: absolute;
+	top : 0;
+	left: 0;
+	padding: 1px 20px;
+	width : 950px;
+	position : relative;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	min-height: 800px;
+}
+
+div.badboy {
+	height: 0;
+	width: 0;
+	min-height: 0;
+	min-width: 0;
+	clear: both;
+}
+
+.floor1,
+.floor2,
+.floor3,
+.floor4 {
+	/*border: 2px dashed #bbb;*/
+	
+}
+
+div.floor1 {
+	padding-top: 30px;
+	height: 50px;
+	margin-top:55px;
+}
+
+div.contact {
+	float : left;
+	padding-top : 5px;
+	height:20px;
+	width: 320px;
+	/*outline: 1px dotted #500;*/
+}
+
+ul{
+	list-style-type: none;
+}
+
+div.contact li {
+	margin-left: 5px;
+	float: left;
+	background-image:url('image/icon.png');
+	background-repeat: no-repeat;
+	height: 20px;
+	width : 20px;
+}
+
+div.contact li p {
+	color: white;
+	margin-top: 2px;
+	font-family: "Times New Roman";
+}
+
+div.contact li:first-child {
+	background-image:none;
+	margin-left: 0;
+	width: 160px;
+	
+	font-size: 14px;
+	text-align: center;
+	/*background-color: #333;*/
+	background-color: rgba(0, 0, 0, 0.8);
+	display: block;
+}
+
+div.contact li.twitter {
+	background-position: 0 0;
+}
+
+div.contact li.google {
+	background-position: -20px 0;
+}
+
+div.contact li.flicker {
+	background-position: -40px 0;
+}
+
+div.contact li.facebook {
+	background-position: -60px 0;
+}
+
+div.contact a {
+	height: inherit;
+	width : inherit;
+	display: block;
+}
+
+div.floor2 {
+	padding-top : 10px;
+	height: 100px;
+}
+
+nav {
+	float : right;
+	background-color: #333;
+}
+
+nav div.logo {
+	float: right;
+	width : 85px;
+	height: 85px;
+	background-color: #900;
+	background-image:url('image/plane.png');
+	background-repeat: no-repeat;
+}
+
+div.title {
+	float: right;
+	width : 85px;
+	height: 85px;
+	background-color: #900;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "Lucida Sans Typewriter";
+	text-align: center;
+}
+
+div.title h1 {
+	margin-top: 27px;
+}
+
+nav menu {
+	list-style-type: none;
+	margin-right: 170px;
+}
+
+nav menu li {
+	height: 85px;
+	float : right;
+	background-color: #222;
+	margin-left: 1px;
+}
+
+nav menu li:hover {
+	background-color: #333;
+}
+
+menu li a {
+	text-decoration: none;
+	padding: 30px 40px;
+	color : #eee;
+	font-size: 20px;
+	font-family: arial;
+	display: block;
+}
+
+div.floor3 {
+	height: 200px;
+	padding-top : 180px;
+	padding-left: 30px;
+
+}
+
+div.activity {
+	padding-top: 1px;
+	float : left;
+	height: 190px;
+	width : 430px;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+
+
+/*----------zed loos---------*/
+
+article.actvityarticle {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+div.activityimage {
+	float: right;
+	width: 120px;
+	height: 120px;
+	margin: 25px 20px 0px 0px;
+	/*border: 3px solid white;*/
+	background-image:url('image/active.png');
+}
+
+div.activitytext {
+	margin:18px 160px 0px 20px;
+	/*border: 3px solid white;*/
+	/*width: 100px;*/
+	height: 120px;
+	text-align: right;
+}
+
+div.activitytext h2 {
+	font-size: 20px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+div.activitytext p {
+	font-size: 15px;
+	font-family: Tahoma;
+	text-align: justify;
+	line-height: 23px;
+}
+
+div.floor4 {
+	height: 110px;
+	padding : 20px 0;
+}
+
+div.btns {
+	z-index : 3;
+	width : 360px;
+	/*border : 2px dashed red;*/
+	margin: 0 auto;
+	height: 100px;
+}
+
+div.btns li {
+	float:left;
+	height: 66px;
+	width: 66px;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+	border-radius: 33px;
+	background-image:url('image/btns.png');
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+div.btns li.pic1 {
+	background-position: 0 0;
+}
+
+div.btns li.pic2 {
+	background-position: -66px 0;
+}
+
+div.btns li.pic3 {
+	background-position: -132px 0;
+}
+
+div.btns li.pic4 {
+	background-position: -198px 0;
+}
+
+div.btns li.pic5 {
+	background-position: -264px 0;
+}
